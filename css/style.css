@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+}
+/* modifiche header del sito */
+header{
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+/* allineamento logo e titolo */
+header h1{
+  display:inline-block;
+  vertical-align: middle;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+.immagine-logo{
+  vertical-align: middle;
+}
+/* fine modifiche header del sito */
+
+/* modifiche sezione con pulsanti */
+.corpo-centrale{
+  background-color: #F6F8F9;
+  padding-top: 60px;
+}
+.sfondo-liste{
+  padding-top:5px;
+}
+.box-principali{
+  background-color: #ffffff;
+  width:60%;
+  margin:0 auto;
+  padding:10px 40px;
+}
+/* aspetto dei pulsanti */
+.pulsanti-add{
+  padding:6px;
+  border-radius: 5px;
+}
+.pulsanti-add.pulsante-pieno{
+  background-color: #47ADF1;
+  color:#ffffff;
+  border:0px;
+}
+.pulsanti-add.pulsante-vuoto{
+  background-color:#ffffff;
+  color:#C8CDD2;
+  border:1px solid #C8CDD2;
+}
+/* modifiche sezione con pulsanti */
+
+/* modifiche liste */
+.titolo-lista{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* simboli sulle list item */
+
+li{
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.check{
+  border: 2px solid #80CEBD;
+  width:20px;
+  height:20px;
+  display:inline-block;
+  border-radius: 50%;
+  text-align: center;
+  color: #80CEBD;
+  font-weight: bold;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+.cross{
+  color:#ED635B;
+  border: 2px solid #ED635B;
+}
+
+/* etichette di vari colori */
+.etichetta{
+  border-radius: 10px;
+  background-color: #45ABEA;
+  color:#ffffff;
+  display:inline-block;
+  padding:5px 10px;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.viola{
+  background-color: #9C72E4;
+}
+
+.verde{
+  background-color: #64C0A9;
+}
+.arancione{
+  background-color: #F29E33;
+}
+.rosa{
+  background-color: #D863A1;
+}
+.gialla{
+  background-color: #B0C926;
+}
